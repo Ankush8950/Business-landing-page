@@ -16,6 +16,6 @@
 ---
 ## 🚀  Project Live Link <br>
 ---
-This project is been hosted on netlify. [Live Project Link](https://effervescent-donut-737bd5.netlify.app)
+This project is been hosted on netlify. [Live Project Link](https://dapper-cascaron-430859.netlify.app/)
 
 ![Business web page](/business.png)
