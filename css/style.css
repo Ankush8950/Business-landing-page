@@ -1,0 +1,602 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-div {
+  width: auto;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(97, 96, 96);
+  padding: 0 60px 0 80px;
+  height: 70px;
+  color: white;
+}
+.logo > img {
+  width: 110px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-item > li {
+  margin: 20px;
+  cursor: pointer;
+  list-style: none;
+}
+.list-item > .btn > button {
+  margin-left: 10px;
+  padding: 6px 30px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.menu {
+  font-size: 25px;
+  display: none;
+}
+
+.home-page {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(97, 96, 96);
+  padding: 30px 60px 30px 80px;
+}
+
+.home-left > img {
+  width: 400px;
+  height: 350px;
+}
+.home-text {
+  margin-right: 50px;
+  width: 40%;
+  /* background-color: crimson; */
+}
+.home-text > h1 {
+  font-size: 50px;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.home-text > p {
+  margin-top: 40px;
+  font-size: 17px;
+  word-spacing: 1.5px;
+  letter-spacing: 1px;
+  color: rgb(195, 192, 192);
+}
+
+.input-form {
+  margin-top: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px 5px 10px;
+}
+.input-form > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(106, 104, 104);
+}
+input {
+  height: 40px;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+}
+.input-form > button {
+  padding: 8px 20px;
+  border: none;
+  background-color: rgb(102, 149, 102);
+  color: white;
+  cursor: pointer;
+}
+.connect-business {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.connect-business > h2 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 40px;
+}
+.business-data {
+  margin-top: 40px;
+  width: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.data {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.data > h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.data > p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(76, 75, 75);
+}
+.connect-business > img {
+  margin-top: 60px;
+  width: 90%;
+  height: 450px;
+}
+
+.design-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  padding: 30px 60px 30px 80px;
+}
+.design-page > h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 800;
+}
+.design-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.left-design {
+  width: 50%;
+}
+.left-design > h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.left-design > p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: rgb(77, 76, 76);
+}
+.left-design > button {
+  margin-top: 50px;
+  padding: 8px 30px;
+  border: none;
+  color: white;
+  background-color: rgb(74, 167, 74);
+  font-size: 13px;
+  cursor: pointer;
+}
+.design-text > img {
+  width: 400px;
+  height: 350px;
+}
+.market-page {
+  padding: 30px 60px 30px 80px;
+  height: 530px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.market-page > img {
+  width: 400px;
+  height: 400px;
+}
+.market-text {
+  width: 50%;
+}
+.market-text > h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.market-text > p {
+  margin-top: 30px;
+  font-size: 17px;
+}
+.market-text > button {
+  margin-top: 40px;
+  padding: 8px 30px;
+  border: none;
+  background-color: rgb(74, 167, 74);
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+
+.public-page {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px 30px 80px;
+}
+.public-text {
+  width: 50%;
+}
+.public-text > h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.public-text > p {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(97, 94, 94);
+}
+.public-text > button {
+  margin-top: 40px;
+  padding: 8px 30px;
+  background-color: rgb(74, 167, 74);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.public-page > img {
+  width: 450px;
+  height: 350px;
+}
+.team-page {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 60px 30px 80px;
+}
+.team-page > .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 100%;
+}
+.header > h1 {
+  width: 300px;
+  font-size: 30px;
+  float: left;
+}
+.header > p {
+  width: 500px;
+  font-size: 17px;
+  float: right;
+  color: rgb(73, 71, 71);
+}
+.team-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.team-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: crimson; */
+}
+.team-card {
+  width: 300px;
+}
+.team-card:nth-child(2){
+  margin: 0 70px 0 70px;
+}
+.team-card > img {
+  width: 300px;
+  height: 350px;
+}
+.team-card > h3 {
+  margin: 10px 0 10px 0;
+  font-size: 17px;
+}
+.team-card > p {
+  font-size: 12px;
+  color: rgb(75, 75, 75);
+}
+
+.team-profile > button {
+  margin-top: 100px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-size: 13px;
+  background-color: rgb(90, 147, 90);
+  color: white;
+  cursor: pointer;
+}
+
+/* footer page  */
+.footer {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 30px 60px 30px 80px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(48, 47, 47, 0.891);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+.line {
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.footer-items {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* height: 300px; */
+}
+.footer-item {
+  margin: 10px;
+}
+.footer-item > h2 {
+  font-size: 20px;
+}
+.footer-item > li {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 13px;
+  color: rgb(141, 139, 139);
+  cursor: pointer;
+}
+@media screen and (max-width: 1080px) {
+  .list-item {
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    top: 50px;
+    right: 10%;
+
+  }
+  .list-item > li{
+    color: black;
+    font-weight: 800;
+  }
+  .list-item > .btn > button {
+  margin-left: 10px;
+  padding: 6px 30px;
+  font-weight: 800;
+  color: rgb(20, 19, 19);
+  background-color: transparent;
+  border: 1px solid rgb(27, 26, 26);
+}
+  .menu {
+    display: block;
+  }
+  .home-page {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-text {
+    margin-top: 50px;
+    width: 80%;
+  }
+  .design-page {
+    height: auto;
+  }
+  .design-text {
+    flex-direction: column-reverse;
+  }
+  .left-design {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .market-page {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .market-page > img {
+    width: 300px;
+    height: 300px;
+  }
+  .market-text {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .public-page {
+    padding-top: 40px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .public-text {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .team-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-card{
+    margin: 20px;
+}
+  .team-page > .header {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 100%;
+  }
+  .header > h1 {
+    width: 100%;
+    font-size: 30px;
+    float: left;
+  }
+  .header > p {
+    width: 100%;
+    font-size: 17px;
+    float: right;
+  }
+  .footer {
+    height: auto;
+  }
+  .footer-logo {
+    flex-direction: column;
+  }
+  .icons {
+    margin-top: 30px;
+  }
+  .footer-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:800px) {
+    .team-card{
+        width: 200px;
+    }
+    .team-card > img{
+        width: 200px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 500px) {
+  .home-page {
+    padding: 50px 10px 20px 20px;
+  }
+  .home-left > img {
+    width: 300px;
+    height: 300px;
+  }
+  .home-text > h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .home-text > p {
+    font-size: 13px;
+  }
+  .input-form {
+    width: 300px;
+  }
+  input {
+    font-size: 10px;
+  }
+  .connect-business > h2 {
+    font-size: 22px;
+  }
+  .connect-business > img {
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+  }
+  .data {
+    height: 100px;
+  }
+  .design-page {
+    padding: 30px 10px 40px 20px;
+  }
+  .design-page > h1 {
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .left-design > h1 {
+    font-size: 22px;
+  }
+  .left-design > p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .design-text > img {
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  .market-page {
+    padding: 30px 10px 50px 20px;
+  }
+  .market-text > h1 {
+    font-size: 22px;
+  }
+  .market-text > p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .public-page {
+    padding: 20px 10px 40px 20px;
+  }
+  .public-text > h1 {
+    font-size: 22px;
+  }
+  .public-text > p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .public-page > img {
+    width: 300px;
+    height: 300px;
+  }
+  .team-card {
+    width: 250px;
+    margin-top: 20px;
+  }
+   .team-card > img{
+    height: 270px;
+    width: 250px;
+  }
+  .team-page {
+    padding: 30px 10px 40px 20px;
+  }
+  .header > h1 {
+    font-size: 22px;
+  }
+  .header > p {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+}
